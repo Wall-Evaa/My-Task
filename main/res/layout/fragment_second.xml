@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nestedScrollView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity" >
+
+
+
+    <include
+        layout="@layout/toolbar2">
+
+
+    </include>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/detailImage"
+            android:layout_width="409dp"
+            android:layout_height="220dp"
+            android:layout_marginTop="63dp">
+
+
+        </com.google.android.material.imageview.ShapeableImageView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/detailtitle"
+            android:layout_width="414dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="283dp">
+            <TextView
+                android:background="#663399"
+                android:text="Text"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:textSize="19sp"
+                android:layout_width="412dp"
+                android:layout_height="100dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:layout_marginTop="395dp"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:text="Promocode"
+            android:gravity="center"
+            android:layout_marginLeft="104dp"
+            android:layout_width="100dp"
+            android:background="@drawable/box_background"
+            android:layout_height="30dp">
+        </TextView>
+        <TextView
+            android:id="@+id/detailPromo"
+            android:background="@drawable/box_background2"
+            android:layout_marginTop="395dp"
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:text="Text"
+            android:gravity="center"
+            android:layout_marginLeft="202dp"
+            android:layout_width="120dp"
+            android:layout_height="30dp">
+        </TextView>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:text="Start Date : "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginRight="130dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:id="@+id/startDate"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:text="Text "
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="80dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:text="End Date : "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginRight="130dp"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:id="@+id/endDate"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:text="Text "
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:text="Category : "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginRight="130dp"
+            android:layout_marginTop="140dp"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:text="Text "
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="140dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="20dp"
+            android:text="Description : "
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginRight="130dp"
+            android:layout_marginTop="170dp"
+            android:layout_gravity="center">
+
+        </TextView>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="370dp"
+            android:layout_height="170dp"
+            android:text="Text "
+            android:textSize="15sp"
+            android:textColor="@color/black"
+            android:layout_marginRight="1dp"
+            android:layout_marginTop="270dp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
